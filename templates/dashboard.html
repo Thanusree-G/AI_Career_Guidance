@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Career Dashboard</title>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        
+        <!-- Sidebar / Profile Panel -->
+        <aside class="glass-panel profile-panel">
+            <div class="profile-header">
+                <div class="avatar-circle">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+                <h2>Your Profile</h2>
+            </div>
+            
+            <div class="profile-details">
+                <div class="detail-item">
+                    <span class="label">Target Career</span>
+                    <span class="value">{{ data.career }}</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Recommended Course</span>
+                    <span class="value">{{ data.course }}</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Expected Salary</span>
+                    <span class="value salary-text">{{ data.salary }}</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Future Scope</span>
+                    <span class="value">{{ data.future }}</span>
+                </div>
+            </div>
+
+            <a href="/" class="back-link"><i class="fa-solid fa-arrow-left"></i> Back to Chat</a>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <header class="dashboard-header glass-panel">
+                <h1>Career Action Plan</h1>
+                <p>Track your progress and build your skills for a future in {{ data.career }}</p>
+            </header>
+
+            <div class="content-grid">
+                
+                <!-- Skills Progress -->
+                <section class="glass-panel skills-section">
+                    <h3><i class="fa-solid fa-bolt"></i> Skills to Master</h3>
+                    <div class="skills-grid">
+                        {% for skill in data.skills %}
+                        <div class="skill-item">
+                            <div class="circular-progress" data-progress="0">
+                                <span class="progress-value">0%</span>
+                            </div>
+                            <span class="skill-name">{{ skill }}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </section>
+
+                <!-- Roadmap Timeline -->
+                <section class="glass-panel roadmap-section">
+                    <h3><i class="fa-solid fa-map"></i> Learning Roadmap</h3>
+                    <div class="timeline">
+                        {% for step in data.roadmap %}
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" class="roadmap-checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="step-text">{{ step }}</span>
+                                </label>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Script for dashboard interactivity -->
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Mentor</title>
+    <!-- Modern Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="glass-panel text-center fade-in">
+        <div class="bot-icon-large">
+            <i class="fa-solid fa-robot"></i>
+        </div>
+        <h1>AI Career Mentor</h1>
+        <p class="subtitle">"Your Personal AI Career Counselor"</p>
+        <p class="description">I will ask you a few questions about your education and interests to recommend the best career path tailored just for you.</p>
+        <button id="start-btn" class="primary-btn pulse">Start Conversation <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <!-- Chat Interface (Hidden initially) -->
+    <div id="chat-interface" class="chat-container glass-panel hidden">
+        
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="bot-avatar">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="header-info">
+                <h2>AI Mentor</h2>
+                <span class="status">Online</span>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div id="chat-messages" class="chat-messages">
+            <!-- Messages will be injected here dynamically -->
+        </div>
+
+        <!-- Input Area (Mainly for options, but keeps the layout consistent) -->
+        <div class="chat-input-area">
+            <!-- Dynamic Option Chips will appear here -->
+            <div id="options-container" class="options-container">
+            </div>
+            <!-- Typing Indicator (Hidden initially) -->
+            <div id="typing-indicator" class="typing-indicator hidden">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script for logic -->
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

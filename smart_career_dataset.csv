@@ -1,0 +1,81 @@
+CurrentStage,Stream,Skill,Interest,Goal,RecommendedCourse,Career,FutureScope
+10th,General,Math,Engineering,Job,MPC,Engineer,Tech Lead
+10th,General,Coding,Computers,Job,MPC,Software Engineer,AI Engineer
+10th,General,Problem Solving,AI,Job,MPC,AI Engineer,ML Architect
+10th,General,Logical Thinking,Data Science,Higher Studies,MPC,Data Scientist,Chief Data Officer
+10th,General,Biology,Medicine,Job,BiPC,Doctor,Surgeon
+10th,General,Patient Care,Healthcare,Job,BiPC,Nurse,Hospital Director
+10th,General,Chemistry,Pharmacy,Job,BiPC,Pharmacist,Drug Scientist
+10th,General,Finance,Business,Startup,MEC,Entrepreneur,CEO
+10th,General,Accounting,Finance,Job,MEC,Accountant,CFO
+10th,General,Leadership,Management,Higher Studies,MEC,Business Manager,CEO
+10th,General,Communication,Law,Government,CEC,Lawyer,Judge
+10th,General,Public Speaking,Government,Government,CEC,Civil Servant,IAS Officer
+10th,General,Writing,Media,Job,CEC,Journalist,Media Director
+10th,General,Creativity,Design,Job,CEC,Graphic Designer,Creative Director
+10th,General,Drawing,Architecture,Job,MPC,Architect,Urban Planner
+10th,General,Discipline,Defense,Government,NDA,Army Officer,Defense Chief
+10th,General,Creativity,Animation,Job,Fine Arts,Animator,Animation Director
+10th,General,Hand Skills,Mechanical Work,Job,Diploma,Mechanical Technician,Plant Manager
+10th,General,Electrical Skills,Electronics,Job,Diploma,Electrical Engineer,Power Systems Engineer
+10th,General,Repair Skills,Technical Work,Job,ITI,Technician,Supervisor
+Intermediate,MPC,Coding,AI,Job,BTech AI,ML Engineer,AI Researcher
+Intermediate,MPC,Problem Solving,AI,Job,BTech AI,AI Engineer,AI Architect
+Intermediate,MPC,Math,Data Science,Job,BTech Data Science,Data Scientist,Chief Data Officer
+Intermediate,MPC,Logical Thinking,Cyber Security,Job,BTech Cyber Security,Security Analyst,Security Architect
+Intermediate,MPC,Coding,Software Development,Job,BTech CSE,Software Engineer,Tech Lead
+Intermediate,MPC,Math,Robotics,Higher Studies,BTech Robotics,Robotics Engineer,Automation Architect
+Intermediate,MPC,Physics,Aerospace,Higher Studies,BTech Aerospace,Aerospace Engineer,Space Scientist
+Intermediate,MPC,Drawing,Architecture,Job,BArch,Architect,Urban Planner
+Intermediate,MPC,Discipline,Defense,Government,NDA,Army Officer,Defense Chief
+Intermediate,MPC,Problem Solving,Engineering,Job,BTech Mechanical,Mechanical Engineer,Plant Director
+Intermediate,BiPC,Biology,Medicine,Job,MBBS,Doctor,Surgeon
+Intermediate,BiPC,Biology,Medicine,Higher Studies,MBBS,Doctor,Specialist Doctor
+Intermediate,BiPC,Patient Care,Healthcare,Job,BSc Nursing,Nurse,Hospital Director
+Intermediate,BiPC,Memory,Dentistry,Job,BDS,Dentist,Dental Surgeon
+Intermediate,BiPC,Chemistry,Pharmacy,Job,BPharmacy,Pharmacist,Drug Scientist
+Intermediate,BiPC,Research,Biotechnology,Higher Studies,Biotechnology,Biotech Engineer,Research Director
+Intermediate,BiPC,Animal Care,Veterinary,Job,Veterinary Science,Veterinarian,Animal Surgeon
+Intermediate,BiPC,Biology,Agriculture,Job,BSc Agriculture,Agricultural Officer,Agritech Specialist
+Intermediate,BiPC,Observation,Forensics,Government,Forensic Science,Forensic Analyst,Crime Investigator
+Intermediate,BiPC,Communication,Public Health,Job,Public Health,Health Officer,Health Policy Expert
+Intermediate,MEC,Finance,Business,Startup,BBA,Entrepreneur,CEO
+Intermediate,MEC,Leadership,Management,Higher Studies,MBA,Business Manager,CEO
+Intermediate,MEC,Finance,Accounting,Job,BCom,Accountant,CFO
+Intermediate,MEC,Math,Stock Market,Job,BCom Finance,Investment Banker,Finance Director
+Intermediate,MEC,Communication,Marketing,Job,BBA,Digital Marketer,Growth Manager
+Intermediate,MEC,Finance,Banking,Job,Banking,Bank Officer,Branch Manager
+Intermediate,MEC,Analysis,Economics,Higher Studies,BA Economics,Economist,Policy Advisor
+Intermediate,MEC,Negotiation,Business,Startup,MBA,Startup Founder,CEO
+Intermediate,MEC,Leadership,Management,Job,BBM,Business Analyst,Operations Head
+Intermediate,MEC,Planning,Finance,Higher Studies,CA,Chartered Accountant,Finance Director
+Intermediate,CEC,Communication,Law,Government,BA LLB,Lawyer,Judge
+Intermediate,CEC,Leadership,Government,Government,UPSC Prep,Civil Servant,IAS Officer
+Intermediate,CEC,Creativity,Media,Job,Journalism,Journalist,Media Director
+Intermediate,CEC,Communication,Business,Job,BBA,HR Manager,Company Director
+Intermediate,CEC,Public Speaking,Politics,Government,Political Science,Policy Analyst,Diplomat
+Intermediate,CEC,Writing,Content Creation,Job,Mass Communication,Content Creator,Media Head
+Intermediate,CEC,Management,Hospitality,Job,Hotel Management,Hotel Manager,Hospitality Director
+Intermediate,CEC,Communication,Tourism,Job,Tourism Management,Travel Consultant,Tourism Director
+Intermediate,CEC,Empathy,Psychology,Higher Studies,Psychology,Counsellor,Clinical Psychologist
+Intermediate,CEC,Social Service,NGO,Government,Social Work,NGO Officer,Program Director
+Degree,BCom,Finance,Business,Higher Studies,MBA Finance,Investment Banker,CFO
+Degree,BCom,Accounting,Finance,Job,CA,Chartered Accountant,Finance Director
+Degree,BCom,Leadership,Business,Startup,MBA,Entrepreneur,CEO
+Degree,BBA,Leadership,Management,Higher Studies,MBA,Product Manager,VP Product
+Degree,BSc CS,Coding,AI,Higher Studies,MSc AI,AI Engineer,AI Architect
+Degree,BSc CS,Programming,Software,Job,MCA,Software Engineer,Engineering Manager
+Degree,BA,Writing,Media,Job,Journalism,Content Writer,Editor
+Degree,BA,Public Speaking,Government,Government,UPSC Prep,Civil Servant,Cabinet Secretary
+Degree,BSc Biotechnology,Research,Biotech,Higher Studies,MSc Biotechnology,Biotech Engineer,Research Head
+Degree,BPharmacy,Chemistry,Pharmacy,Higher Studies,MPharmacy,Drug Scientist,Research Director
+BTech,CSE,Coding,Software,Job,Software Development,Senior Developer,Tech Architect
+BTech,CSE,Coding,AI,Higher Studies,MTech AI,AI Engineer,AI Director
+BTech,CSE,Programming,Cloud,Job,AWS Certification,Cloud Engineer,Solutions Architect
+BTech,CSE,Logical Thinking,Cyber Security,Job,Cyber Security,Security Analyst,Security Architect
+BTech,AI,Programming,Machine Learning,Job,ML Engineering,ML Engineer,AI Researcher
+BTech,ECE,Circuit Design,Embedded Systems,Job,Embedded Systems,Embedded Engineer,Hardware Architect
+BTech,Mechanical,Design,Automobile,Job,Automobile Engineering,Mechanical Engineer,Plant Manager
+BTech,Civil,Planning,Construction,Job,Construction Management,Civil Engineer,Project Director
+BTech,Robotics,Programming,Automation,Higher Studies,MTech Robotics,Robotics Engineer,Automation Director
+BTech,CSE,Leadership,Startup,Startup,Entrepreneurship,Startup Founder,CEO
